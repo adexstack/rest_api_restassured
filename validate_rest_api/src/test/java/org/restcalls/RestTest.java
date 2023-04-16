@@ -2,12 +2,15 @@ package org.restcalls;
 import io.restassured.path.json.JsonPath;
 import org.files.Payload;
 import org.testng.Assert;
+import org.testng.annotations.Test;
+
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
 
 public class RestTest {
-    public static void main(String[] args) {
+    @Test
+    public void basic_end_to_end() {
     baseURI = "https://rahulshettyacademy.com";
     String response = given().log().all().queryParam("key", "qaclick123")
             .header("Content-Type", "application/json")
