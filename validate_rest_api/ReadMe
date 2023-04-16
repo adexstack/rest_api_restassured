@@ -1,0 +1,3 @@
+Section 5: Validating the Rest Api Responses
+Had to use <testng.version>6.14.3</testng.version> as latest 7.7.0 was failing for 55 vs 52 dependency issue log
+---------------------------------------------
