@@ -1,0 +1,29 @@
+javascript apikali
+rpg google
+
+restful/
+
+adminKey
+organization ID    072aa1d3-1844-11j4-6c77-b9kk10cc2664
+API key    LyI8bkZfaK8oAgSHQGEe
+
+DNS token
+
+C:\Users\saade\Atlassian\Jira\bin\start-jira
+
+atlassian
+----------
+organization : sdetdevops
+seyi adex
+bin/startjira
+sdetdevops@gmail.com
+jira9595
+
+admin
+------
+sdetdevops@gmail.com
+sdetdevops
+jira9595
+
+fields.comment.comments get count
+if id=<> get author.name get body

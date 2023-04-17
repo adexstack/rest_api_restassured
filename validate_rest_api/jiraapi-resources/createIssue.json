@@ -1,0 +1,13 @@
+{
+  "fields":{
+    "project":
+    {
+      "key": "SDET"
+    },
+    "summary": "Assertion Defect Again",
+    "description": "Creating Second bug",
+    "issuetype": {
+      "name": "Bug"
+    }
+  }
+}

@@ -7,3 +7,9 @@ parsing and validating mocked complex json response
 --------------------------------------------------------------------------------
 Section 7: Handling static, dynamic, files payload & using DataProvider
 -------------------------------------------------------------------------------
+Section 8: Updated with jiraapi testing package
+Install Jira software(not cloud)
+Installed but not launched;  issue resolved by https://www.youtube.com/watch?v=M-2_LqJuAS4&t=301s
+Note: to start jira; start from bin directory
+http://localhost:8080/secure/WelcomeToJIRA.jspa
+https://developer.atlassian.com/cloud/jira/platform/jira-rest-api-cookie-based-authentication/#:~:text=In%20this%20tutorial%2C%20we%20will%20use%20cookie-based%20%28session%29,information%20about%20the%20session%20including%20the%20session%20cookie.

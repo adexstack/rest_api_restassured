@@ -1,0 +1,25 @@
+
+
+To start jira: C:\Users\<username>\Atlassian\Jira\bin\start-jira
+http://localhost:8080/rest/auth/1/session
+create project and use the project key when api require it.
+post:  {"username":"sdetdevops",
+"password":"jira9595"}
+
+
+atlassian
+----------
+organization : seyi-adex
+seyi adex
+bin/startjira
+sdetdevops@gmail.com
+jira9595
+
+admin
+------
+sdetdevops@gmail.com
+sdetdevops
+jira9595
+
+In order to be able to upload attachment with the created issue:
+From Jira page, on top right, Select Settings Icon > System > Attachments (under Advanced): Set "Allow Attachments" to ON

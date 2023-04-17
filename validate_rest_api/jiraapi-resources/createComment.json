@@ -1,0 +1,7 @@
+{
+  "body": "My Comment to Assert",
+  "visibility": {
+    "type": "role",
+    "value": "Administrators"
+  }
+}
