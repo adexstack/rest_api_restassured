@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="org.reportutils.Listeners"/>
+</listeners>
+
+    <test name="DynamicJson Testing">
+        <classes>
+            <class name="org.restcalls.DynamicJson"/>
+        </classes>
+    </test>
+    <test name="RestTest Testing">
+         <classes>
+            <class name="org.restcalls.RestTest"/>
+       </classes>
+    </test>
+    <test name="ComplexJsonParse Testing">
+        <classes>
+            <class name="org.restcalls.ComplexJsonParse"/>
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->

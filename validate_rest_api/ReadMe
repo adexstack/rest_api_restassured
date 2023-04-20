@@ -16,3 +16,17 @@ https://developer.atlassian.com/cloud/jira/platform/jira-rest-api-cookie-based-a
 ---------------------------------------------------------------------------------
 Section 11-13: POJO Serialization/Deserialization and Spec Builders
 Note: You have to manually generate code in web browser to get access-token to pass the execution. See details in Class
+----------------------------------------------------------------------------------
+Section 21: Added datadriving package for excel and hashmap usage
+You can use this in DynamicJson.java class to drive your DataProvider tests from excel, and not hardcoded
+Also added reusable HashMap code as this can be fed as body to restassured, same as POJO
+--------------------------------------------------------------------------------------------------
+Testng: Configured and added extentreport and testng.xml handling
+Added extentreports to pom, Created reportutils package with added ExtentReporterNG and Listeners class
+Added xml to maven surefire plugin to generate extent report.
+Note:  running isolated test, e.g mvn -Dtest=RestTest test (will not generate extent report)
+Extent report is only generated for mvn test (as it uses the testng.xml in the pom)
+Profiling: Creating different profiles in pom.xml to allow running specific testng file as required
+Note: With profiling used in pom, mvn test will not run tests in xml file anymore, the xml file name to run has to be given
+mvn test -PRegression
+mvn test -PSmoke
